@@ -78,6 +78,43 @@ When the user gives you a task, follow this loop:
 
 ---
 
+## Problem-solving workflow
+
+For non-trivial coding tasks, follow this workflow:
+
+1. **Understand**
+
+   - Restate the task in 1–3 bullet points.
+   - Identify the main files or areas of the codebase involved.
+   - Think about expected behavior, potential edge cases, and how it fits into the existing architecture.
+
+2. **Plan**
+
+   - Propose a short, actionable plan (3–7 steps).
+   - For multi-step work, include a small markdown todo list in your response, for example:
+     - [ ] Step 1: …
+     - [ ] Step 2: …
+     - [ ] Step 3: …
+   - Update the todo list and mark items as `[x]` as you conceptually complete them.
+
+3. **Execute**
+
+   - Make small, focused changes that are easy to review.
+   - Prefer minimal diffs and keep behavior backwards-compatible unless explicitly asked otherwise.
+   - Reuse existing patterns and abstractions; do not invent new ones if good ones already exist.
+
+4. **Verify**
+
+   - Re-read changed code and check for obvious issues and edge cases.
+   - Suggest relevant commands to run (tests, lint, typecheck, build) based on `package.json`.
+   - If you change business logic, mention at least one edge case to verify manually.
+
+5. **Report**
+   - Summarize what you changed in 1–3 bullets.
+   - Call out any assumptions or follow-up actions (e.g. env vars, migrations, manual QA).
+
+---
+
 ## Coding style & stack specifics
 
 ### Vue 3

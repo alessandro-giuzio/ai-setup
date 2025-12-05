@@ -1,22 +1,40 @@
 # AI Setup
 
-A collection of documentation and resources for setting up and working with AI development environments, coding practices, and workflow optimization.
+> A comprehensive knowledge base and toolkit for AI-assisted development, code organization, and workflow optimization using Astro, Vue 3, TailwindCSS, Supabase, and ShadCN UI.
 
-## Contents
+---
 
-This repository contains various documentation files to help with AI-assisted development:
+## 📚 Repository Contents & File Guide
 
-- **[Codebase Organization Tips README.md](./Codebase%20Organization%20Tips%20README.md)** - Best practices for organizing code projects
-- **[Copilot Prompt Template.md](./Copilot%20Prompt%20Template.md)** - Templates and guidelines for effective AI prompting
-- **[copilot-instructions.md](./copilot-instructions.md)** - Instructions and configuration for GitHub Copilot
-- **[Tech Stack Codebase Tips.md](./Tech%20Stack%20Codebase%20Tips.md)** - Technology-specific development tips and practices
-- **[Dev Notes.md](./Dev%20Notes.md)** - General development notes and reminders
-- **[Debug Notes.md](./Debug%20Notes.md)** - Debugging strategies and troubleshooting guides
-- **[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Agent-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/install/agent?url=vscode%3Achat-agent%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Falessandro-giuzio%2Fai-setup%2Fmain%2F.github%2Fagents%2Falessandro-frontend-beast.agent.md)** - Best practices for frontend development with AI assistance
+- **Codebase Organization Tips README.md**
+  _How to structure your project for clarity and scalability. Explains folder layout, naming conventions, and best practices for organizing code._
 
-## Purpose
+- **Copilot Prompt Template.md**
+  _Templates and step-by-step instructions for writing effective prompts for GitHub Copilot and other AI coding agents. Includes examples for Vue, Astro, and JS._
 
-This repository serves as a centralized knowledge base for:
+- **copilot-instructions.md**
+  _Project-specific rules and conventions for AI agents. Covers stack, file structure, output formats, Tailwind usage, and more. This is the main reference for automated coding tools._
+
+- **Tech Stack Codebase Tips.md**
+  _Quick reference for the main technologies used (Astro, Vue, TailwindCSS, Supabase, ShadCN). Includes links to docs and advanced Tailwind usage tips._
+
+- **Dev Notes.md**
+  _Ongoing development notes, recent changes, and known issues. Use this to track progress and pending fixes._
+
+- **Debug Notes.md**
+  _Troubleshooting and debugging strategies, especially for Supabase integration and common frontend issues. Includes code snippets for fixes._
+
+- **.github/copilot-instructions.md**
+  _(Duplicate of above for GitHub Copilot integration; see main copilot-instructions.md for details.)_
+
+- **.github/agents/alessandro-frontend-beast.agent.md**
+  _Custom agent for advanced frontend tasks. Follows repo conventions, plans multi-step work, and executes in small, reviewable chunks. See file for workflow and coding style._
+
+---
+
+## 🚀 Purpose
+
+Centralizes:
 
 - AI-assisted development workflows
 - Code organization and best practices
@@ -24,14 +42,28 @@ This repository serves as a centralized knowledge base for:
 - Technology stack recommendations
 - Development environment setup
 
-## Usage
+---
 
-Browse through the documentation files to find relevant information for your development needs. Each file contains specific guidance for different aspects of the development process.
+## 🛠️ How to Use
 
-## Contributing
+Browse the documentation files above for guidance on:
 
-Feel free to add new documentation or improve existing content as you discover new best practices and workflows.
+- Project structure and naming conventions
+- Writing effective AI prompts
+- Coding standards and output formats
+- Debugging and troubleshooting
+- Technology-specific tips
 
-## License
+For automated agents, always start with `copilot-instructions.md` and agent files in `.github/agents/`.
 
-This documentation is provided as-is for educational and reference purposes.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Add new docs or improve existing ones as you discover better workflows and practices.
+
+---
+
+## 📄 License
+
+Provided as-is for educational and reference purposes.
